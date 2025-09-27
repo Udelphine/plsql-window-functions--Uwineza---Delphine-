@@ -4,10 +4,10 @@ PL/SQL Window Functions individual assignment
 ##Problem definition
 
 ##Business context
-MediCare Solutions, a healthcare company based in Kigali-Rwanda, manages patient care and medical supply distribution across the region.
-It operates in healthcare industry.
-And it handles all aspects of direct patient care-diagnosing, treating, and managing illnesses,
-as well as coordinating with other departments to ensure full healthcare service.
+Company: MediCare Solution
+Department: Healthcare Technology
+Location: Kigali-Rwanda
+Industry: healthcare industry.
 
 ##Data challenge
 The company will have to:
@@ -16,12 +16,13 @@ The company will have to:
 -segment patients for targeted care programs
 
 ##Expected outcome
-Solution to a realistic healthcare business problem
+Provide insights into patient visit frequency, top diagnoses per department, trends in treatment outcomes,
+and patient segmentation based on visit or billing history i.e Solution to a realistic healthcare business problem
 
 ---
 
 ##Success criteria
-1. **Top 5 patients per region/quarter** using `ROW_NUMBER(), RANK(), DENSE_RANK(), PERCENT_RANK()`.
+1. **Top 5 patients per region/quarter** using `RANK()`.
 2. **Running monthly totals of medical supply usage** using `SUM() OVER()`.
 3. **Month over month growth in treatment usage** using `LAG()/LEAD()`.
 4. **Segment patients into quartiles** using `NTILE(4)`.
