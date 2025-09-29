@@ -49,40 +49,7 @@ Provide insights into:
 
 ### Entity relationship diagram
 
-+-------------+          +-------------+          +----------------+
-|  patients   | 1      * |  treatments | 1      * |  usage         |
-+-------------+----------+-------------+----------+----------------+
-| patient_idPK|<-------->| treatment_idPK |<------| usage_idPK     |
-| name        |          | patient_idFK   |       | treatment_idFK |
-| dob         |          | staff_idFK     |       | date           |
-| gender      |          | treatment_type |       | dosage         |
-| phone       |          | start_date     |       | notes          |
-+-------------+          | end_date       |       +----------------+
-                         | cost           |
-                         +-------------+
-
-
-+-------------+          +----------------+
-|   staff     | 1      * |  treatments    |
-+-------------+----------+----------------+
-| staff_idPK  |<-------->| staff_idFK     |
-| name        |          | treatment_idPK |
-| role        |          | treatment_type |
-| department  |          | start_date     |
-| phone       |          | end_date       |
-+-------------+          | cost           |
-                         +----------------+
-
-
-+-------------+          +----------------+
-|  suppliers  | 1      * |  usage         |
-+-------------+----------+----------------+
-| supplier_idPK|<--------| supplier_idFK  |
-| name         |         | usage_idPK     |
-| contact      |         | item_supplied  |
-| supply_type  |         | quantity       |
-+-------------+          |  date          |
-                         +----------------+
+![ER diagram](Screenshots/ERdiagram.png)
 
 ---
 
