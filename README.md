@@ -151,7 +151,7 @@ To fix this, hospitals should monitor antibiotic prescriptions better, work with
 (Course excerpt used for practical examples and interpretation of results.)
 4. Rwanda Health Data Report 2024 - Ministry of Health Rwanda
 (Hypothetical report; represents local health data trends in Kigali, guiding regional analysis.)
-5.MySQL 8.0 Documentation – Window Functions
+5. MySQL 8.0 Documentation – Window Functions
 6. W3Schools – SQL Window Functions Tutorial
 7. Khan Academy – Introduction to SQL Queries and Analysis
 8. Journal of Database Management – Articles on SQL Analytics
